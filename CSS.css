@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+.cover{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #255538;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+}
+body{
+    padding: 10px;
+    background-color: #f3e5d8;
+}
+.modocrimen{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+button{
+    border-radius: 100px;
+}
+.oscuridad{
+    width: 25px;
+    
+}
+
+.banner{
+    background-image: url("./images/salsaypicante.webp");
+    color: white;
+    padding: 80px;
+    margin: 2rem ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+h1{
+    font-size: 2rem;
+}
+.Recetas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin: 0;
+
+}
+.comidas{
+    padding: 10px;
+    border-radius: 20px;
+    background-color:white;
+}
+img{
+    width: 400px;
+    border-radius: 20px;
+}
+@media(max-width: 500px){ 
+    .banner{
+        margin: 1rem 0;
+    }
+}
