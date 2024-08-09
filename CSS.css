@@ -13,14 +13,16 @@
 body{
     padding: 10px;
     background-color: #f3e5d8;
+    transition: background-color 0.4s;
 }
-.modocrimen{
+.modonoche{
     display: flex;
     align-items: center;
     gap: 5px;
 }
 button{
     border-radius: 100px;
+    cursor: pointer;
 }
 .oscuridad{
     width: 25px;
@@ -52,6 +54,8 @@ h1{
     padding: 10px;
     border-radius: 20px;
     background-color:white;
+    transition: background-color 0.4s;
+    
 }
 img{
     width: 400px;

@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+.cover{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #255538;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+}.modonoche{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.oscuridad{
+    width: 25px;
+    
+}
+button{
+    border-radius: 100px;
+    cursor: pointer;
+}
+body{
+    padding: 10px;
+    background-color: #f3e5d8;
+    transition: background-color 0.4s;
+}
+
+h2{
+    color: #7E4333;
+}
+p{
+    font-size: 20px;
+}
+.formula{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    transition: background-color 0.4s;
+}
+label{
+    display: block;
+    margin: 7px;
+    color:#7E4333 ;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.primeros{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(232, 229, 229);
+    border: none;
+    border-radius: 10px;
+    
+}
+.segundos{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(232, 229, 229);
+    border: none;
+    border-radius: 10px;
+}
+.enviar{
+    margin: 20px;
+    max-width: 70px;
+    cursor: pointer;
+    background-color: #255538;
+    color: white;
+    border-radius:  10px;
+}
+.enviar:hover{
+    background-color: rgb(49, 214, 126);
+    color: aliceblue;
+}
